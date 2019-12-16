@@ -2,11 +2,12 @@
 
 //dependencies
 const express = require('express');
+const app = express();
 const cors = require('cors');
 const superagent = require('superagent');
 require('dotenv').config();
 
-const app = express();
+
 app.use(cors());
 
 
